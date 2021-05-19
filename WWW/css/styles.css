@@ -69,6 +69,48 @@
         padding: 2rem;
         border-radius: 1rem;
     }
+    @media (min-width:768px) {
+        .carros {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            column-gap: 1rem;
+        }
+    }
+    .carros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    li {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .producto__nombre,
+    .producto__precio{
+        color: var(--negro);
+        text-decoration: none;
+    }
+
+    .carro__imagen{
+        height: 10rem;
+    }
+    @media (min-width:768px) {
+        .carro__imagen {
+            height: 20rem;
+        }
+    }
+    .lista__carros{
+        list-style-type: none;
+        columns: 1;
+    }
+    @media (min-width:768px) {
+        .lista__carros {
+            list-style-type: none;
+            columns: 3;
+        }
+    }
     /* Tipografía */
     h1 {
         font-size: 3.8rem;
@@ -212,7 +254,7 @@
         border-radius: .5rem;
     }
     /* Acerca De*/
-    .servicios {
+    .informacion {
         scroll-snap-align: center;
         scroll-snap-stop: always;
     }
@@ -225,8 +267,6 @@
     }
     .info {
         text-align:center;
-    }
-    .info {
         display: flex;
         flex-direction: column;
         align-items: center;

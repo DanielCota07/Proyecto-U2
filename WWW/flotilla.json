@@ -2,126 +2,190 @@
     {
         "id": 1,
         "url": "./Img/Batimovil.jpg",
-        "name": "Batimovil"
+        "name": "Batimovil",
+        "precio": "10",
+        "alter": "Batimovil"
     },
     {
         "id": 2,
         "url": "./Img/Cangremovil.png",
-        "name": "Cangremovil"
+        "name": "Cangremovil",
+        "precio": "10",
+        "alter": "Cangremovil"
     },
     {
         "id": 3,
         "url": "./Img/Carreta.jpg",
-        "name": "Batimovil"
+        "name": "Carreta",
+        "precio": "10",
+        "alter": "Carreta"
     },
     {
         "id": 4,
         "url": "./Img/Coca.jpg",
-        "name": "Batimovil"
+        "name": "Camión CocaCola",
+        "precio": "10",
+        "alter": "Coca"
     },
     {
         "id": 5,
         "url": "./Img/Cyber_Truck.jpg",
-        "name": "Batimovil"
+        "name": "Cyber Truck",
+        "precio": "10",
+        "alter": "Cyber_Truck"
     },
     {
         "id": 6,
         "url": "./Img/Delorian.jpg",
-        "name": "Batimovil"
+        "name": "Delorean",
+        "precio": "10",
+        "alter": "Delorean"
     },
     {
         "id": 7,
         "url": "./Img/Dura_Dura_Dura.jpg",
-        "name": "Cangremovil"
+        "name": "Triciclo Apache",
+        "precio": "10",
+        "alter": "Dura_Dura"
     },
     {
         "id": 8,
         "url": "./Img/Fennec_Blanco.jpg",
-        "name": "Batimovil"
+        "name": "Fennec Blanco Titanio",
+        "precio": "10",
+        "alter": "Fennec"
     },
     {
         "id": 9,
         "url": "./Img/Fierro_Viejo.jpg",
-        "name": "Batimovil"
+        "name": "Troca Fierro Viejo",
+        "precio": "10",
+        "alter": "Compramos..."
     },
     {
         "id": 10,
         "url": "./Img/food_truck.jpg",
-        "name": "Batimovil"
+        "name": "Camión de Comida",
+        "precio": "10",
+        "alter": "Food_Truck"
     },
     {
         "id": 11,
         "url": "./Img/Ford_A.jpg",
-        "name": "Batimovil"
+        "name": "Ford Modelo A",
+        "precio": "10",
+        "alter": "Ford_A"
     },
     {
         "id": 12,
         "url": "./Img/Gil.jpg",
-        "name": "Cangremovil"
+        "name": "Carro de Gil",
+        "precio": "10",
+        "alter": "Atropella_Perros"
     },
     {
         "id": 13,
         "url": "./Img/Herbie.jpg",
-        "name": "Batimovil"
+        "name": "Herbie",
+        "precio": "10",
+        "alter": "Herbie"
     },
     {
         "id": 14,
         "url": "./Img/Jetta_AMLO.jpg",
-        "name": "Batimovil"
+        "name": "Jetta de AMLO",
+        "precio": "10",
+        "alter": "Ayuda, porfavor"
     },
     {
         "id": 15,
         "url": "./Img/La_Esfera.jpg",
-        "name": "Cangremovil"
+        "name": "Carro Esfera",
+        "precio": "10",
+        "alter": "Dragon_Ball"
     },
     {
         "id": 16,
         "url": "./Img/La_Mamalona.jpg",
-        "name": "Batimovil"
+        "name": "La Mamalona",
+        "precio": "10",
+        "alter": "La_Mamalona"
     },
     {
         "id": 17,
         "url": "./Img/Limosina_XV.png",
-        "name": "Batimovil"
+        "name": "Limosina XV Años",
+        "precio": "10",
+        "alter": "Ruby"
     },
     {
         "id": 18,
         "url": "./Img/Mine_Cart.png",
-        "name": "Batimovil"
+        "name": "Carro de Mina de Minecraft",
+        "precio": "10",
+        "alter": "Mine_Cart"
     },
     {
         "id": 19,
         "url": "./Img/Nieve.jpg",
-        "name": "Batimovil"
+        "name": "Carrito de Nieves",
+        "precio": "10",
+        "alter": "Nieve"
     },
     {
         "id": 20,
         "url": "./Img/Nueva_Alianza.jpg",
-        "name": "Batimovil"
+        "name": "Van de Cuadri",
+        "precio": "10",
+        "alter": "NA"
     },
     {
         "id": 21,
-        "url": "./Img/Pica_Piedra.jpg",
-        "name": "Batimovil"
+        "url": "./Img/Papa_Movil.jpg",
+        "name": "Papa Movil",
+        "precio": "10",
+        "alter": "Amen"
     },
     {
         "id": 22,
-        "url": "./Img/Rayo_mcqueen.jpg",
-        "name": "Cangremovil"
+        "url": "./Img/Pica_Piedra.jpg",
+        "name": "Carro de los Pica Piedra",
+        "precio": "10",
+        "alter": "Sin_Motor"
     },
     {
         "id": 23,
-        "url": "./Img/Toy_Story.jpg",
-        "name": "Batimovil"
+        "url": "./Img/Rayo_mcqueen.jpg",
+        "name": "Rayo Mcqueen",
+        "precio": "10",
+        "alter": "Qchau"
     },
     {
         "id": 24,
-        "url": "./Img/Tsuru_Tuneado.jpg",
-        "name": "Batimovil"
+        "url": "./Img/Toy_Story.jpg",
+        "name": "Control",
+        "precio": "10",
+        "alter": "Toy_Tori"
     },
     {
         "id": 25,
+        "url": "./Img/Trineo_Santa.jpg",
+        "name": "Trineo de Santa (Sin Renos)",
+        "precio": "10",
+        "alter": "Jo-Jo-Jo"
+    },
+    {
+        "id": 26,
+        "url": "./Img/Tsuru_Tuneado.jpg",
+        "name": "Tsuru Tuneado",
+        "precio": "10",
+        "alter": "Morder_Polvo"
+    },
+    {
+        "id": 27,
         "url": "./Img/Vocho_Responsable.jpg",
-        "name": "Batimovil"
+        "name": "Vocho Responsable",
+        "precio": "10",
+        "alter": "Anti_Covi_Achu"
     }
 ]
