@@ -8,12 +8,12 @@ fetch(url)
             let li = document.createElement("li");
             let url = `./Detalles/detalle${car.id}.html`
             li.innerHTML = `
-                <a href=${url}>
+                <a class="hipervinculo" href=${url}>
                     <div class="carros">
                         <img class="carro__imagen" src=${car.url} alt=${car.alter}>
                         <div class="carro__inf">
-                            <p class="producto__nombre">Nombre: ${car.name}</p>
-                            <p class="producto__precio">Precio: ${car.precio}</p>
+                            <p class="producto__nombre">Nombre: <span>${car.name}</span></p>
+                            <p class="producto__precio">Precio: <span>${car.precio}</span></p>
                         </div>
                     </div>
                 </a>`

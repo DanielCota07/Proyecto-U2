@@ -83,10 +83,19 @@
         break-inside: avoid;
         padding: .5rem
     }
-    .producto__nombre,
-    .producto__precio{
+    .hipervinculo{
         color: var(--negro);
         text-decoration: none;
+    }
+
+    .producto__nombre,
+    .producto__precio{
+        font-weight: 700;
+    }
+
+    .producto__nombre span,
+    .producto__precio span{
+        font-weight: 400;
     }
 
     .carro__imagen{
