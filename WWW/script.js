@@ -6,8 +6,9 @@ fetch(url)
     .then(cars => {
         cars.map(car =>{
             let li = document.createElement("li");
+            let url = `./Detalles/detalle${car.id}.html`
             li.innerHTML = `
-                <a href="detalle.html">
+                <a href=${url}>
                     <div class="carros">
                         <img class="carro__imagen" src=${car.url} alt=${car.alter}>
                         <div class="carro__inf">
@@ -21,7 +22,6 @@ fetch(url)
     })
     .catch(error=> {
         console.log(error);
-        ///document.getElementById("error").innerHTML = error.message;
     })
     .finally(()=> {
         console.log("proceso terminado")

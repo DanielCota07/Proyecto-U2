@@ -17,13 +17,7 @@
     *, *:before, *:after {
         box-sizing: inherit;
     }
-    /* Scroll */
-    /*
-    . {
-        scroll-snap-align: center;
-        scroll-snap-stop: always;
-    }
-    */
+
     body {
         font-size: 16px; /* 1rem = 10px */
         font-family: 'Krub', sans-serif;
@@ -80,12 +74,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        border: 0.2rem solid #000;
 
     }
     li {
         -webkit-column-break-inside: avoid;
         page-break-inside: avoid;
         break-inside: avoid;
+        padding: .5rem
     }
     .producto__nombre,
     .producto__precio{
@@ -95,10 +91,12 @@
 
     .carro__imagen{
         height: 10rem;
+        padding: 0.8rem
     }
     @media (min-width:768px) {
         .carro__imagen {
-            height: 20rem;
+            height: 18rem;
+            padding: 0.8rem
         }
     }
     .lista__carros{
@@ -110,6 +108,12 @@
             list-style-type: none;
             columns: 3;
         }
+    }
+    .detalle__carro {
+        font-weight: 700;
+    }
+    .detalle__carro span{
+        font-weight: 400;
     }
     /* Tipografía */
     h1 {
@@ -271,8 +275,8 @@
         flex-direction: column;
         align-items: center;
     }
-    
-    
+
+
     .iconos {
         display: flex;
         height: 150px;

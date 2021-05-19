@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+    <link rel="preload" href="../css/normalize.css" as="style">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="preload" href="../css/styles.css" as="style">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">
+            <a href="../index.html">CarUach</a>
+            <span>(No lavamos carros)</span>
+        </h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion_principal contenedor ">
+            <a href="../index.html">Inicio</a>
+            <a href="../contacto.html">Contacto</a>
+            <a href="../acerca_de.html">Nosotros</a>
+        </nav>
+    </div>
+    <main class="contenedor sombra">
+        <div class="carros">
+            <img class="carro__imagen" id="imagen">
+            <div class="carro__inf">
+                <p class="detalle__carro">Nombre: <span id=nombre></span></p>
+                <p class="detalle__carro">Precio: <span id=precio></span></p>
+                <p class="detalle__carro">Modelo: <span id=modelo></span></p>
+                <p class="detalle__carro">Color: <span id=color></span></p>
+                <p class="detalle__carro">Descripción: <span id=descripcion></span></p>
+                <p class="detalle__carro">Año: <span id=año></span></p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Daniel Cota y Dalí Gomez</p>
+     </footer>
+
+     <script>
+         fetch("../flotilla.json")
+         .then(response => response.json())
+         .then(data => {
+             document.getElementById("imagen").src = `../${data[1].url}`;
+             document.getElementById("nombre").innerHTML = data[1].name;
+             document.getElementById("precio").innerHTML = data[1].precio;
+             document.getElementById("modelo").innerHTML = data[1].modelo;
+             document.getElementById("color").innerHTML = data[1].color;
+             document.getElementById("descripcion").innerHTML = data[1].descripcion;
+             document.getElementById("año").innerHTML = data[1].año;
+         })
+     </script>
+</body>
+</html>

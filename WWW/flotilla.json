@@ -1,191 +1,299 @@
 [
     {
         "id": 1,
-        "url": "./Img/Batimovil.jpg",
+        "url": "Img/Batimovil.jpg",
         "name": "Batimovil",
-        "precio": "10",
-        "alter": "Batimovil"
+        "precio": "18 batidolares",
+        "alter": "Batimovil",
+        "modelo": "Robin",
+        "color": "N3gr0",
+        "descripcion": "No incluye Batman, ni armas. La empresa no se hace responsable de daños a la propiedad que sean ocasionados.",
+        "año": "1966"
     },
     {
         "id": 2,
-        "url": "./Img/Cangremovil.png",
+        "url": "Img/Cangremovil.png",
         "name": "Cangremovil",
-        "precio": "10",
-        "alter": "Cangremovil"
+        "precio": "La corona de Neptuno",
+        "alter": "Cangremovil",
+        "modelo": "Con queso",
+        "color": "Hamborguesa",
+        "descripcion": "Llantas de pepinillos, equipamiento de cuero a la parrilla, 4 ventilar-freidoras, espatula como llave.",
+        "año": "2004"
     },
     {
         "id": 3,
-        "url": "./Img/Carreta.jpg",
+        "url": "Img/Carreta.jpg",
         "name": "Carreta",
-        "precio": "10",
-        "alter": "Carreta"
+        "precio": "2 mulas",
+        "alter": "Carreta",
+        "modelo": "Fiesta",
+        "color": "Planks de roble",
+        "descripcion": "Cuatro caballos de fuerza, bien alimentados.",
+        "año": "3500 a.C."
     },
     {
         "id": 4,
-        "url": "./Img/Coca.jpg",
+        "url": "Img/Coca.jpg",
         "name": "Camión CocaCola",
-        "precio": "10",
-        "alter": "Coca"
+        "precio": "Diabetes",
+        "alter": "Coca",
+        "modelo": "Pepsi",
+        "color": "Rojo",
+        "descripcion": "Sin azucar, 0 calorias.",
+        "año": "-1 por cada 10 litros"
     },
     {
         "id": 5,
-        "url": "./Img/Cyber_Truck.jpg",
+        "url": "Img/Cyber_Truck.jpg",
         "name": "Cyber Truck",
-        "precio": "10",
-        "alter": "Cyber_Truck"
+        "precio": "69,420 dogecoins",
+        "alter": "Cyber_Truck",
+        "modelo": "Irrompible",
+        "color": "Metal",
+        "descripcion": "Cuidado, se rompe.",
+        "año": "X Æ A-12"
     },
     {
         "id": 6,
-        "url": "./Img/Delorian.jpg",
+        "url": "Img/Delorian.jpg",
         "name": "Delorean",
-        "precio": "10",
-        "alter": "Delorean"
+        "precio": "313,000 euros",
+        "alter": "Delorean",
+        "modelo": "3 puertas",
+        "color": "Futuro",
+        "descripcion": "Capaz de generar 1.21 gigawatts.",
+        "año": "1985"
     },
     {
         "id": 7,
-        "url": "./Img/Dura_Dura_Dura.jpg",
+        "url": "Img/Dura_Dura_Dura.jpg",
         "name": "Triciclo Apache",
-        "precio": "10",
-        "alter": "Dura_Dura"
+        "precio": "1,500 pesos",
+        "alter": "Dura_Dura",
+        "modelo": "En Familia con Chabelo",
+        "color": "Infancia",
+        "descripcion": "Dura, dura, dura.",
+        "año": "1935"
     },
     {
         "id": 8,
-        "url": "./Img/Fennec_Blanco.jpg",
+        "url": "Img/Fennec_Blanco.jpg",
         "name": "Fennec Blanco Titanio",
-        "precio": "10",
-        "alter": "Fennec"
+        "precio": "7,000 créditos",
+        "alter": "Fennec",
+        "modelo": "Blanco Titanio",
+        "color": "Blanco Titanio",
+        "descripcion": "La troquita try-hard, ahora en Blanco Titanio.",
+        "año": "2015"
     },
     {
         "id": 9,
-        "url": "./Img/Fierro_Viejo.jpg",
+        "url": "Img/Fierro_Viejo.jpg",
         "name": "Troca Fierro Viejo",
-        "precio": "10",
-        "alter": "Compramos..."
+        "precio": "Lavadoras, refrigeradores o algo de fiero viejo que venda",
+        "alter": "Compramos...",
+        "modelo": "Fierro pariente",
+        "color": "Óxido",
+        "descripcion": "Compramos.",
+        "año": "'91"
     },
     {
         "id": 10,
-        "url": "./Img/food_truck.jpg",
+        "url": "Img/food_truck.jpg",
         "name": "Camión de Comida",
-        "precio": "10",
-        "alter": "Food_Truck"
+        "precio": "9,999.99 calorias",
+        "alter": "Food_Truck",
+        "modelo": "Hipertensión",
+        "color": "Hail grasa",
+        "descripcion": "xD :v, rápido y sabroso.",
+        "año": "2013"
     },
     {
         "id": 11,
-        "url": "./Img/Ford_A.jpg",
+        "url": "Img/Ford_A.jpg",
         "name": "Ford Modelo A",
-        "precio": "10",
-        "alter": "Ford_A"
+        "precio": "1,680,000 dolares",
+        "alter": "Ford_A",
+        "modelo": "A",
+        "color": "A",
+        "descripcion": "Primer carro.",
+        "año": "1929"
     },
     {
         "id": 12,
-        "url": "./Img/Gil.jpg",
+        "url": "Img/Gil.jpg",
         "name": "Carro de Gil",
-        "precio": "10",
-        "alter": "Atropella_Perros"
+        "precio": "La mitad de eso",
+        "alter": "Atropella_Perros",
+        "modelo": "Tidda",
+        "color": "Rojo",
+        "descripcion": "Cuidado con los perros, la cajuela ya no se abre sola.",
+        "año": "2009"
     },
     {
         "id": 13,
-        "url": "./Img/Herbie.jpg",
+        "url": "Img/Herbie.jpg",
         "name": "Herbie",
-        "precio": "10",
-        "alter": "Herbie"
+        "precio": "1,400,000 pesos",
+        "alter": "Herbie",
+        "modelo": "Vocho",
+        "color": "53",
+        "descripcion": "A toda marcha.",
+        "año": "2005"
     },
     {
         "id": 14,
-        "url": "./Img/Jetta_AMLO.jpg",
+        "url": "Img/Jetta_AMLO.jpg",
         "name": "Jetta de AMLO",
-        "precio": "10",
-        "alter": "Ayuda, porfavor"
+        "precio": "4 transformaciones",
+        "alter": "Ayuda, porfavor",
+        "modelo": "Jetta",
+        "color": "Transparencia",
+        "descripcion": "Me canso ganso.",
+        "año": "2006-∞"
     },
     {
         "id": 15,
-        "url": "./Img/La_Esfera.jpg",
-        "name": "Carro Esfera",
-        "precio": "10",
-        "alter": "Dragon_Ball"
+        "url": "Img/La_Mamalona.jpg",
+        "name": "La Mamalona",
+        "precio": "No te alcanza, bro",
+        "alter": "La_Mamalona",
+        "modelo": "Mamalón",
+        "color": "Mamalón (Rojo, pa' que corra mas recio)",
+        "descripcion": "Traigo la mamalona, cuh",
+        "año": "Último modelo++"
     },
     {
         "id": 16,
-        "url": "./Img/La_Mamalona.jpg",
-        "name": "La Mamalona",
-        "precio": "10",
-        "alter": "La_Mamalona"
+        "url": "Img/Limosina_XV.png",
+        "name": "Limosina XV Años",
+        "precio": "1 sexy chambelán",
+        "alter": "Ruby",
+        "modelo": "Ibarra",
+        "color": "Rosa brillantina",
+        "descripcion": "Ven a mis XV ya.",
+        "año": "XV"
     },
     {
         "id": 17,
-        "url": "./Img/Limosina_XV.png",
-        "name": "Limosina XV Años",
-        "precio": "10",
-        "alter": "Ruby"
+        "url": "Img/Mine_Cart.png",
+        "name": "Carro de Mina de Minecraft",
+        "precio": "5 lingotes de hierro",
+        "alter": "Mine_Cart",
+        "modelo": "1.16.5",
+        "color": "Creeper",
+        "descripcion": "A la minita.",
+        "año": "2009"
     },
     {
         "id": 18,
-        "url": "./Img/Mine_Cart.png",
-        "name": "Carro de Mina de Minecraft",
-        "precio": "10",
-        "alter": "Mine_Cart"
+        "url": "Img/Nieve.jpg",
+        "name": "Carrito de Nieves",
+        "precio": "15 peso",
+        "alter": "Nieve",
+        "modelo": "La Michoacana",
+        "color": "0° C",
+        "descripcion": "Incluye vendedor con sombrero de paja y trapito.",
+        "año": "2005"
     },
     {
         "id": 19,
-        "url": "./Img/Nieve.jpg",
-        "name": "Carrito de Nieves",
-        "precio": "10",
-        "alter": "Nieve"
+        "url": "Img/Nueva_Alianza.jpg",
+        "name": "Van de Cuadri",
+        "precio": "Un curul",
+        "alter": "PANAL",
+        "modelo": "PANAL",
+        "color": "Edecan",
+        "descripcion": "Este 1° de julio vota Nueva Alianza, vota Gabriel Quadri.",
+        "año": "Tuvimos 2.28% de los votos"
     },
     {
         "id": 20,
-        "url": "./Img/Nueva_Alianza.jpg",
-        "name": "Van de Cuadri",
-        "precio": "10",
-        "alter": "NA"
+        "url": "Img/Papa_Movil.jpg",
+        "name": "Papa Movil",
+        "precio": "10 padres nuestros",
+        "alter": "Amen",
+        "modelo": "Juan Pablo II",
+        "color": "Santidad",
+        "descripcion": "Aprobado por el Yorch y el San Lorenzo.",
+        "año": "Liturgico"
     },
     {
         "id": 21,
-        "url": "./Img/Papa_Movil.jpg",
-        "name": "Papa Movil",
-        "precio": "10",
-        "alter": "Amen"
+        "url": "Img/Pica_Piedra.jpg",
+        "name": "Carro de los Pica Piedra",
+        "precio": "10 piedrólares",
+        "alter": "Sin_Motor",
+        "modelo": "Prehistorico",
+        "color": "Neandertal",
+        "descripcion": "No tiene frenos, compra botas.",
+        "año": "300 a.C."
     },
     {
         "id": 22,
-        "url": "./Img/Pica_Piedra.jpg",
-        "name": "Carro de los Pica Piedra",
-        "precio": "10",
-        "alter": "Sin_Motor"
+        "url": "Img/Pickup_91.jpeg",
+        "name": "Pickup 91",
+        "precio": "91 dolores",
+        "alter": "Dibujo",
+        "modelo": "Lapiz sobre papel",
+        "color": "Grafito",
+        "descripcion": "Dejo el dibujo de referencia.",
+        "año": "'91"
     },
     {
         "id": 23,
-        "url": "./Img/Rayo_mcqueen.jpg",
-        "name": "Rayo Mcqueen",
-        "precio": "10",
-        "alter": "Qchau"
+        "url": "Img/Rayo_mcqueen.jpg",
+        "name": "Rayo McQueen",
+        "precio": "3 copas pistón",
+        "alter": "Qchau",
+        "modelo": "Qchau",
+        "color": "Rust-Eze",
+        "descripcion": "Aquí voy. Concéntrate. Velocidad. Soy veloz. Un ganador, 42 perdedores, yo desayuno perdedores. ¿Desayuno? Tal vez debí desayunar, un desayunito estaría bien. No no no, concéntrate. Velocidad. Soy más que rápido, más que velóz. Soy un rayo.",
+        "año": "2006"
     },
     {
         "id": 24,
-        "url": "./Img/Toy_Story.jpg",
+        "url": "Img/Toy_Story.jpg",
         "name": "Control",
-        "precio": "10",
-        "alter": "Toy_Tori"
+        "precio": "Menos que Woody",
+        "alter": "Toy_Tori",
+        "modelo": "A control remoto",
+        "color": "Verde y azul",
+        "descripcion": "Eres un juguete.",
+        "año": "1995"
     },
     {
         "id": 25,
-        "url": "./Img/Trineo_Santa.jpg",
+        "url": "Img/Trineo_Santa.jpg",
         "name": "Trineo de Santa (Sin Renos)",
-        "precio": "10",
-        "alter": "Jo-Jo-Jo"
+        "precio": "Un beso de mamá",
+        "alter": "Jo-Jo-Jo",
+        "modelo": "Navideño",
+        "color": "Rojo-jo-jo",
+        "descripcion": "El sabe de ti, el sabe de mi, lo sabe todo. NO INTENTES HUIR.",
+        "año": "Diciembre"
     },
     {
         "id": 26,
-        "url": "./Img/Tsuru_Tuneado.jpg",
+        "url": "Img/Tsuru_Tuneado.jpg",
         "name": "Tsuru Tuneado",
-        "precio": "10",
-        "alter": "Morder_Polvo"
+        "precio": "Toda la quincena",
+        "alter": "Morder_Polvo",
+        "modelo": "Arrancones",
+        "color": "Verde fosfo fosfo",
+        "descripcion": "Preparate para ver mis luces traseras.",
+        "año": "1995"
     },
     {
         "id": 27,
-        "url": "./Img/Vocho_Responsable.jpg",
+        "url": "Img/Vocho_Responsable.jpg",
         "name": "Vocho Responsable",
-        "precio": "10",
-        "alter": "Anti_Covi_Achu"
+        "precio": "La Vacuna de Pfizer",
+        "alter": "Anti_Covi_Achu",
+        "modelo": "Pfizer",
+        "color": "Esperanza",
+        "descripcion": "Mantén tu sana distancia.",
+        "año": "2019-202?"
     }
 ]
