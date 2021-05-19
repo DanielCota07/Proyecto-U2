@@ -11,7 +11,9 @@ http.createServer((request, response)=>{
             response.end();
         } else{
             const extension = file.split('.').pop();
-            switch(extension){
+            const extension2 = extension.split('?').pop();
+            console.log(extension2);
+            switch(extension2){
                 case 'txt':
                 response.writeHead(200, {"Content-Type":"text/plain"});
                 break;

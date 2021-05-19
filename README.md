@@ -26,9 +26,9 @@ Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los
 ***
 Utilizando los conocimientos adquiridos en la unidad, vamos a crear nuestro primer sitio web para esto toma en cuenta el siguiente problema:
 
-Se tiene una empresa llamada “automax” de renta de autos que quiere promocionar sus unidades por internet, para esto la empresa tiene al rededor de 25 autos de los cuales cuenta con modelo, año, marca y precio por día de renta. 
+Se tiene una empresa llamada “automax” de renta de autos que quiere promocionar sus unidades por internet, para esto la empresa tiene al rededor de 25 autos de los cuales cuenta con modelo, año, marca y precio por día de renta.
 
-- [] Crear un servidor web que se ejecute sobre el puerto 8888 . **(20 puntos)**
+- [:ballot_box_with_check:] Crear un servidor web que se ejecute sobre el puerto 8888 . **(20 puntos)**
 
 Crear un sitio web que se hospede en el servidor que contenga lo siguiente:
 
@@ -78,5 +78,3 @@ Aparte de lo anterior se necesitará tener una cuenta en estas dos plataformas
     - [Github](https://github.com/DanielCota07)
 - Axel Dalí Gomez Morales       ***329881***
     - [Github](https://github.com/AxlDali)
-
-    
