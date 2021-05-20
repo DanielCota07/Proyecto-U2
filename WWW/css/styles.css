@@ -285,6 +285,18 @@
         align-items: center;
     }
 
+    .info p{
+        margin: 0.5rem;
+        text-align: justify;
+    }
+
+    .tiempo__espera{
+        font-weight: 700;
+    }
+
+    .tiempo__espera span{
+        font-weight: 400;
+    }
 
     .iconos {
         display: flex;
