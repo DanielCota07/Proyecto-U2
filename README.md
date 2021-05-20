@@ -6,6 +6,24 @@ Proyecto elaborado para la materia "Desarrollo Basado en Plataformas" como forma
 
 ## Profesor: I.S. Luis Antonio Ramirez Martinez
 
+###Funcionamiento
+
+Nuestra página cuenta con:
+
+```
+    Titulo de Página con una hipervinculo a la página principal.
+    Naegación principal para pasar de página sin problema sin importar en cual página te encuentres.
+    Una lista con 27 carros.
+    Cada carro de la lista cuenta con un hipervinculo que te muestra los detalles del mismo.
+    Una página de contacto con un formulario que permite escribir y recibir la información recabada.
+    Una página que muestra que tu mensaje ha sido enviado con exito.
+    Una página sobre nosotros con datos, misión y visión para que el usuario nos reconozca.
+    De igual forma cuenta con un archivo normalize para que nuestro diseño no se vea tan afectado al cambiar de navegador.
+    Cuenta con Media Queries para que el diseño de la página se vea bien en cualquier dispositivo.
+```
+
+Nota: No contamos con la pagina de detalle en la navecación principal debido a que realizamos una página por cada automovil para poder ver a detalle cada uno de ellos.
+
 ### Requisitos Previos
 
 Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los temas visto en el parcial, los cuales son:
@@ -32,15 +50,15 @@ Se tiene una empresa llamada “AutoMax” de renta de autos que quiere promocio
 
 Crear un sitio web que se hospede en el servidor que contenga lo siguiente:
 
-    - [x] a) Landing page que presente a la empresa y los vehículos que tiene disponibles. **(10 puntos)**
+- [x] a) Landing page que presente a la empresa y los vehículos que tiene disponibles. **(10 puntos)**
 
-    - [x] Pagina web de contacto con los datos para ubicar a la empresa. **(10 puntos)**
+- [x] Pagina web de contacto con los datos para ubicar a la empresa. **(10 puntos)**
 
-    - [x] Página web “acerca de ” con los datos de la empresa (ej. Misión, visión, etc.)  **(10 puntos)**
+- [x] Página web “acerca de ” con los datos de la empresa (ej. Misión, visión, etc.)  **(10 puntos)**
 
-    - [x] Página web de detalle de los primeros 3 vehículos.  **(15 puntos)**
+- [x] Página web de detalle de los primeros 3 vehículos.  **(15 puntos)**
 
-    - [x] Formulario de contacto que almacene en el servidor en un archivo de texto la información. **(15 puntos)**
+- [x] Formulario de contacto que almacene en el servidor en un archivo de texto la información. **(15 puntos)**
 
 - [] Al terminar convierta el servidor y el sitio web en una imagen de Docker publicada en Docker hub. **(20 puntos)**
 
