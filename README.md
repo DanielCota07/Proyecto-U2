@@ -89,6 +89,7 @@ Aparte de lo anterior se necesitará tener una cuenta en estas dos plataformas
 
 - [GitHub](https://github.com/DanielCota07/Proyecto-U2)
 - [DockerHub](https://hub.docker.com/repository/docker/axeldali/proyecto-u2)
+
 Nota: Para correr el proyecto puede correr el comando: docker run -d --publish 8888:8888 axeldali/proyecto-u2 
 
 
