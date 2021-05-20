@@ -36,11 +36,11 @@ Crear un sitio web que se hospede en el servidor que contenga lo siguiente:
 
     - [x] Pagina web de contacto con los datos para ubicar a la empresa. **(10 puntos)**
 
-    - [] Página web “acerca de ” con los datos de la empresa (ej. Misión, visión, etc.)  **(10 puntos)**
+    - [x] Página web “acerca de ” con los datos de la empresa (ej. Misión, visión, etc.)  **(10 puntos)**
 
     - [x] Página web de detalle de los primeros 3 vehículos.  **(15 puntos)**
 
-    - [] Formulario de contacto que almacene en el servidor en un archivo de texto la información. **(15 puntos)**
+    - [x] Formulario de contacto que almacene en el servidor en un archivo de texto la información. **(15 puntos)**
 
 - [] Al terminar convierta el servidor y el sitio web en una imagen de Docker publicada en Docker hub. **(20 puntos)**
 

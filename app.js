@@ -3,7 +3,25 @@ const fs = require('fs');
 
 http.createServer((request, response)=>{
     console.log(request.url);
-    const file = request.url == '/'? './WWW/index.html' : `./WWW${request.url}`;
+    let file = request.url;
+    if(request.url.includes("?nombre")){
+        const server_mensaje = `http://localhost:8888${request.url}`
+        const url = new URL(server_mensaje)
+        console.log(url);
+        const parametro = url.searchParams;
+        const nombre = parametro.get("nombre");
+        const telefono = parametro.get("telefono");
+        const email = parametro.get("email");
+        const mensaje = parametro.get("mensaje");
+        let data = "\n\n\nNombre: " + nombre + "\nTelefono: " + telefono + "\nEmail: " + email + "\nMensaje:\n'" + mensaje + "'";
+        console.log(data);
+        fs.appendFileSync('./WWW/contacto.txt', data);
+        file = './WWW/mensaje.html';
+    } else {
+        console.log(request.url);
+        file = request.url == '/'? './WWW/index.html' : `./WWW${request.url}`;
+    }
+
     fs.readFile(file, (err, data)=>{
         if(err){
             response.writeHead(404, {"Content-Type":"text/plain"});
