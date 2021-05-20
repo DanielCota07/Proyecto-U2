@@ -6,7 +6,7 @@ Proyecto elaborado para la materia "Desarrollo Basado en Plataformas" como forma
 
 ## Profesor: I.S. Luis Antonio Ramirez Martinez
 
-###Funcionamiento
+### Funcionamiento
 
 Nuestra página cuenta con:
 
@@ -26,7 +26,7 @@ Nota: No contamos con la pagina de detalle en la navecación principal debido a 
 
 ### Requisitos Previos
 
-Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los temas visto en el parcial, los cuales son:
+Para realizar el proyecto fue necesario tener conocimientos basicos acerca de los temas visto en el parcial, los cuales son:
 
 ```
     Tener una partición con Linux en tu sistema operativo
@@ -60,7 +60,7 @@ Crear un sitio web que se hospede en el servidor que contenga lo siguiente:
 
 - [x] Formulario de contacto que almacene en el servidor en un archivo de texto la información. **(15 puntos)**
 
-- [] Al terminar convierta el servidor y el sitio web en una imagen de Docker publicada en Docker hub. **(20 puntos)**
+- [x] Al terminar convierta el servidor y el sitio web en una imagen de Docker publicada en Docker hub. **(20 puntos)**
 
 Entrega un repositorio en GitHub (debe contener archivo readme con los integrantes del equipo y descripción de cómo funciona) y la liga de la imagen en Docker hub. Cada miembro del equipo deberá entregar ambas ligas en su Moodle.
 
@@ -88,7 +88,9 @@ Aparte de lo anterior se necesitará tener una cuenta en estas dos plataformas
 ## Proyectos
 
 - [GitHub](https://github.com/DanielCota07/Proyecto-U2)
-- [DockerHub]()
+- [DockerHub](https://hub.docker.com/repository/docker/axeldali/proyecto-u2)
+Nota: Para correr el proyecto puede correr el comando: docker run -d --publish 8888:8888 axeldali/proyecto-u2 
+
 
 ## Autores
 

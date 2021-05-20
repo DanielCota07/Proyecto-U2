@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-CarUACH",
+  "version": "1.0.0",
+  "description": "Página de venta de carros utilizando HTML y Node JS",
+  "authors": [
+    "Axel Dalí Gómez <a329881@uach.mx>",
+    "Daniel Cota <a329701@uach.mx>"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "html"
+  ],
+  "dependencies": {}
+}
