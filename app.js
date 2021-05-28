@@ -18,8 +18,16 @@ http.createServer((request, response)=>{
         fs.appendFileSync('./WWW/contacto.txt', data);
         file = './WWW/mensaje.html';
     } else {
-        console.log(request.url);
-        file = request.url == '/'? './WWW/index.html' : `./WWW${request.url}`;
+        if(request.url == "/329701"){
+            file = './WWW/329701.json';
+        }
+        else if(request.url == "/329881"){
+            file = './WWW/329881.json';
+        }
+        else{
+            console.log(request.url);
+            file = request.url == '/'? './WWW/index.html' : `./WWW${request.url}`;
+        }
     }
 
     fs.readFile(file, (err, data)=>{
